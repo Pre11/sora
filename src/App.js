@@ -1,19 +1,21 @@
-
+import React from 'react';
 import './App.css';
 import Dashboard from './pages/Dashboard';
 // import { BrowserRouter} from 'react-router-dom'
 
-function App() {
-  return (
-    <div>
-     
-    
-      <Dashboard />
-      
-    
-    
-    </div>
-  );
+class App extends React.Component {
+  render(){
+    return (
+      <div className="App">
+
+
+        <Dashboard />
+
+
+
+      </div>
+    );
+  }
 }
 
 export default App;
